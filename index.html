@@ -5,26 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/main.css">
-
-    <title>Chat of War</title>
+    <link rel="stylesheet" href="CSS/proba.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <title>ChatOfWar</title>
 </head>
 
 <body>
-    <div class="container">
-        <p href="" class="title">
-            Чат войны
-        </p>
-        <form class="form">
-            <input class="input login" type="text" name="Login" placeholder="Введите Логин:">
-        </form>
-        <form class="form">
-            <input class="input password" type="password" name="Password" placeholder="Введите Пароль:">
-        </form>
-        <a href="#" class="reg">
-            Регистрация
-        </a>
-    </div>
+    <h1 class="container">Chat of War</h1>
+    <form action="PHP/main.php" method="post">
+        <input type="text" name="username" placeholder="Введите имя для аворизации!">
+        <input type="submit" name="but" placeholder="Вход">
+    </form>
+    <script src="JS/proba.js"></script>
+
 </body>
 
 </html>
