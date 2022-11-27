@@ -1,0 +1,27 @@
+.container {
+
+    background-color: #E4F801;
+    max-width: 1266px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Kyiv*Type Titling';
+    font-size: 36px;
+    margin: 0;
+
+}
+
+#login[type=submit] {
+    background-color: #600080;
+    color: #ffffff;
+}
+
+#login[type=submit]:hover {
+    background-color: #ffffff;
+    color: #000000;
+}

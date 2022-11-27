@@ -1,0 +1,35 @@
+.container {
+
+    background-color: #E4F801;
+    max-width: 1266px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Kyiv*Type Titling';
+    font-size: 36px;
+    margin: 0;
+
+}
+
+.form {
+    margin-top: 53px;
+}
+
+.input {
+    color: black;
+    font-size: 28px;
+    height: 56px;
+    width: 328px;
+}
+
+
+.reg {
+    text-decoration: none;
+    font-size: 36px;
+    margin: 75px;
+}
